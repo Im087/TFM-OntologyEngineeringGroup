@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es" typeof="http://schema.org/WebPage" resource="#Quienes somos">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Ontology Engineering Group</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="./css/OEG.css">
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="./js/oeg.min.js"></script>
+
+</head>
+
+<body vocab="http://schema.org/">
+
+  <!-- Navigation -->
+  @@include('./include/header.html') <!--include the header to this page -->
+
+  <!-- Page content -->
+  <div class="container">
+
+    <!-- Page Heading -->
+    <h1 class="mt-4 mb-3" property="name">Quiénes somos</h1>
+
+    <!-- Breadcrumbs -->
+    <ol id="breadcrumb" class="breadcrumb" property="breadcrumb" typeof="BreadcrumbList" resource="#BreadcrumbList">
+      <li class="breadcrumb-item" property="itemListElement" typeof="ListItem">
+        <meta property="position" content="1">
+        <a href="index.html" property="item" typeof="WebPage">
+          <span property="name">Inicio</span>
+        </a>
+      </li>
+      <li class="breadcrumb-item active" property="itemListElement" typeof="ListItem">
+        <meta property="position" content="2">
+        <a property="item" typeof="WebPage">
+          <span property="name">Quiénes somos</span>
+        </a>
+      </li>
+    </ol>
+
+    <!-- Content Row -->
+    <div class="row">
+      <!-- Sidebar Column -->
+      <div class="col-lg-3 col-sm-12 mb-4" typeof="WPSideBar" resource="#WPSideBar">
+        <div class="list-group sidebar">
+          <a href="./pages/profesores.html" class="list-group-item">Profesores</a>
+          <a href="#" class="list-group-item">Post-Docs</a>
+          <a href="#" class="list-group-item">Estudiantes de doctorado</a>
+          <a href="#" class="list-group-item">Estudiantes de máster</a>
+          <a href="#" class="list-group-item">Personal de soporte</a>
+          <a href="#" class="list-group-item">Personal administrativo</a>
+          <a href="#" class="list-group-item">Colaboradores</a>
+        </div>
+      </div>
+
+      <!-- Content Column -->
+      <div class="col-lg-9 col-sm-12" property="mainEntity" typeof="Article">
+        <meta property="mainEntity" resource="#OEG">
+        <meta property="author" resource="#OEG">
+        <meta property="publisher" resource="#OEG">
+        <meta property="datePublished" content="2019-01-01">
+        <meta property="dateModified" content="2019-01-01">
+        <meta property="mainEntityOfPage" resource="quienes-somos.html">
+
+        <h2 property="headline">Ontology Engineering Group</h2>
+        <br>
+        <!-- Post Content -->
+        <div property="articleBody">
+          <p>El Ontology Engineering Group se encuentra en la Escuela Técnica Superior de Ingeniería Informática de la Universidad Politécnica de Madrid. Se encuentra en el puesto octavo de los más de dos cientos grupos de investigación de la UPM y es ampliamente reconocido en Europa en las áreas de <a href="#">Ingeniería Ontológica</a>, <a href="#">Web Semántica</a>, <a href="#">Social y Linked Data</a>, <a href="#">Lenguaje Natural</a>, <a href="#">e-Ciencia Semántica</a> y la <a href="#">Internet del futuro</a>.</p>
+
+          <p>Los logros más relevantes obtenidos por el grupo en estas áreas son:</p>
+
+          <ol>
+            <li>
+              <p>Methontology (deprecated) y <a href="#">NeOn Methodology</a>, es una metodología basada en escenarios para el desarrollo de redes de ontologías que proporcina guías en todos los aspectos claves del proceso de ingeniería ontológica, incluyendo desarrollo colaborativo de ontologías, reutilización de recursos ontológicos y no ontológicos, y la evolución y mantenimiento de ontologías en red</p>
+            </li>
+            <li>
+              <p><a href="#">OOPS!</a>, un herramienta web para la evaluación de ontologías</p>
+            </li>
+            <li>
+              <p>Morph, un conjunto de herramientas que explotan R2RML, recomendación del W3C, para permitir el acceso a bases de datos relacionales heredadas, flujos de datos y Google Fusion Tables usando SPARQL o extensiones de streaming de datos de la misma</p>
+            </li>
+            <li>
+              <p><a href="#">Marimba</a>, una herramienta para transformer registros bibliográficos en format MARC 21 a Linked Data</p>
+            </li>
+            <li>
+              <p><a href="#">geometry2rdf</a> y <a href="#">sitemap4rdf</a>, herramientas para la transformación de información geográfica a Linked Data y su explotación a través de un visualizador facetado</p>
+            </li>
+            <li>
+              <p><a href="#">SPARQL-DQP</a> un sistema que optimiza consultas SPARQL federadas</p>
+            </li>
+            <li>
+              <p><a href="#">Sem4Tags</a>Sem4Tags, una herramienta multilenguaje que, dada una etiquette de entrada en inglés o español y un contexto, genera como resultado un recurso DBpedia que representa el significado de la etiqueta</p>
+            </li>
+          </ol>
+          <p>Finalmente, el grupo ha desarrollado aplicaciones en un amplio rango de dominios, incluyendo gestión del conocimiento, gestiñon del ciclo de vida de aplicaciones software, comercio electrónico, búsquedas de trabajo y financiación, geolocalización, gestión de projectos de I+D, etc.</p>
+          <p>Especial mención se merecen las aplicaciones Linked Data en colaboración con el Instituto Geográfico Nacional (<a href="#">GeoLinkedData</a>), <a href="http://aemet.linkeddata.es/">AEMET</a>,  la Biblioteca Nacional (<a href="http://datos.bne.es/">datos.bne.es</a>), el Grupo Prisa Digital (<a href="http://webenemasuno.linkeddata.es/">El Viajero</a>) y Fundeu (Terminesp). Además, el OEG mantiene el <a href="#">capítulo español de DBpedia</a> y ha participado y participa en diversas actividades de estandarización del W3c tales como la especificación del Linked Data Platform specification, PROV-O provenance ontology, Sensor Network Ontology, Ontolex model for ontology-lexica, Best practices for Multilingual Linked Open Data. También hemos participado en las actividades del ISO/TC 37 Committee dentro del SC 4 y en el ISO/TC 37/TCG /Terminology Coordination Group.</p>
+          <p>En la siguiente imagen puede consultar, de una vez, la información más relevante del grupo. También se puede descargar en formato pdf en el <a href="../file/poster_OEG.pdf">siguiente enlace</a>.</p>
+        </div>
+
+        <div>
+        <img class="img-fluid" src="../img/poster_oeg.png" alt="poster_oeg" property="image">
+        </div>
+
+        <hr>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="totop">
+    <button class="text-center" title="back to top">
+      <i class="fa fa-chevron-circle-up"></i>
+    </button>
+  </div>
+
+  <!-- Footer -->
+  @@include('./include/footer.html') <!--include the footer to this page -->
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es" typeof="http://schema.org/WebPage" resource="#Resultados">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Ontology Engineering Group</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="./css/OEG.css">
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="./js/oeg.min.js"></script>
+
+</head>
+
+<body vocab="http://schema.org/">
+
+  <!-- Navigation -->
+  @@include('./include/header.html') <!--include the header to this page -->
+
+  <!-- Page content -->
+  <div class="container">
+
+    <!-- Page Heading -->
+    <h1 class="mt-4 mb-3" property="name">Resultados</h1>
+
+    <!-- Breadcrumbs -->
+    <ol id="breadcrumb" class="breadcrumb" property="breadcrumb" typeof="BreadcrumbList" resource="#BreadcrumbList">
+      <li class="breadcrumb-item" property="itemListElement" typeof="ListItem">
+        <meta property="position" content="1">
+        <a href="index.html" property="item" typeof="WebPage">
+          <span property="name">Inicio</span>
+        </a>
+      </li>
+      <li class="breadcrumb-item active" property="itemListElement" typeof="ListItem">
+        <meta property="position" content="2">
+        <a property="item" typeof="WebPage">
+          <span property="name">Resultados</span>
+        </a>
+      </li>
+    </ol>
+
+    <!-- Content Row -->
+    <div class="row">
+      <!-- Sidebar Column -->
+      <div class="col-lg-3 col-sm-12 mb-4" typeof="WPSideBar" resource="#WPSideBar">
+        <div class="list-group sidebar">
+          <a href="/pages/publicaciones.html" class="list-group-item">Publicaciones</a>
+          <a href="/resultados/ontologias/page1" url="../../server/articlelist/resultados.php?pagination=1" class="list-group-item">Ontologías</a>
+          <a href="/resultados/tecnologias-y-modelos/page1" url="../../server/articlelist/resultados.php?pagination=1" class="list-group-item">Tecnologías y Modelos</a>
+          <a href="/resultados/tecnologias-antiguas/page1" url="../../server/articlelist/resultados.php?pagination=1" class="list-group-item">Tecnologías antiguas</a>
+          <a href="/resultados/servicios/page1" url="../../server/articlelist/resultados.php?pagination=1" class="list-group-item">Servicios</a>
+          <a href="/resultados/metodologias/page1" url="../../server/articlelist/resultados.php?pagination=1" class="list-group-item">Metodologías</a>
+          <a href="/resultados/linked-data/page1" url="../../server/articlelist/resultados.php?pagination=1" class="list-group-item">Linked data</a>
+          <a href="/resultados/materiales-utilizados-en-articulos/page1" url="../../server/articlelist/resultados.php?pagination=1" class="list-group-item">Material utilizado en artículos</a>
+          <a href="/resultados/benchmarks/page1" url="../../server/articlelist/resultados.php?pagination=1" class="list-group-item">Benchmarks</a>
+        </div>
+      </div>
+
+      <!-- Content Column -->
+      <div class="col-lg-9 col-sm-12">
+
+        <div id="article-list" class="row">
+
+          <div class="col-lg-6 col-sm-12 portfolio-item">
+            <div class="card h-100">
+              <div class="card-head">
+                <a href="pages/buscamedia-ontologies-m3.html"><img class="card-img-top" src="./img/ontologiam3general.png" alt="ontologiam3general"></a>
+                <div class="mask">
+                  <div class="middle-text h3">Leer</div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="pages/buscamedia-ontologies-m3.html">Buscamedia Ontologies: M3</a>
+                </h4>
+                <p class="card-text">El objetivo de la red de ontologías M3 es representar el conocimiento relacionado con la información multimedia de diferentes tipos de recursos (texto, video, audio,  audiovisual o imagen) en diferentes dominios y teniendo en cuenta un contexto multilingüe.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 portfolio-item">
+            <div class="card h-100">
+              <div class="card-head">
+                <a href="pages/buscamedia-ontologies-m3.html"><img class="card-img-top" src="./img/omv.png" alt="omv"></a>
+                <div class="mask">
+                  <div class="middle-text h3">Leer</div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="pages/buscamedia-ontologies-m3.html">OMV - Ontology Metadata Vocabulary</a>
+                </h4>
+                <p class="card-text">El Ontology Metadata Vocabulary OMV es un estándar propuesto para describir ontologías y las entidades relacionadas. El esquema de metadatos de OMV está formalmente representado como una ontología y está diseñado de forma modular: OMV distingue entre el OMV Core y varias extensiones OMV. El núcleo, OMV Core, captura información que será relevante para la mayor parte de las configuraciones del proceso de reutilización de ontologías, mientras que las extensiones, OMV Extensions,  permiten a los desarrolladores de ontologías y usuarios especificar tareas y aplicaciones específicas a la información relacionada con la ontología (por ejemplo, mappings, evaluación de la ontología, cambios de la ontología, etc.)</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="totop">
+    <button class="text-center" title="back to top">
+      <i class="fa fa-chevron-circle-up"></i>
+    </button>
+  </div>
+
+  <!-- Footer -->
+  @@include('./include/footer.html') <!--include the footer to this page -->
+
+</body>
+
+</html>

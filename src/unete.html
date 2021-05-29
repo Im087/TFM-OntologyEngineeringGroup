@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es" typeof="http://schema.org/WebPage" resource="#Unete">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Ontology Engineering Group</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="./css/OEG.css">
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="./js/oeg.min.js"></script>
+
+</head>
+
+<body vocab="http://schema.org/">
+
+  <!-- Navigation -->
+  @@include('./include/header.html') <!--include the header to this page -->
+
+  <!-- Page content -->
+  <div class="container">
+
+    <!-- Page Heading -->
+    <h1 class="mt-4 mb-3" property="name">Únete</h1>
+
+    <!-- Breadcrumbs -->
+    <ol id="breadcrumb" class="breadcrumb" property="breadcrumb" typeof="BreadcrumbList" resource="#BreadcrumbList">
+      <li class="breadcrumb-item" property="itemListElement" typeof="ListItem">
+        <meta property="position" content="1">
+        <a href="index.html" property="item" typeof="WebPage">
+          <span property="name">Inicio</span>
+        </a>
+      </li>
+      <li class="breadcrumb-item active" property="itemListElement" typeof="ListItem">
+        <meta property="position" content="2">
+        <a property="item" typeof="WebPage">
+          <span property="name">Únete</span>
+        </a
+      </li>
+    </ol>
+
+    <!-- Content Row -->
+    <div class="row">
+      <!-- Sidebar Column -->
+      <div class="col-lg-3 col-sm-12 mb-4" typeof="WPSideBar" resource="#WPSideBar">
+        <div class="list-group sidebar">
+          <a href="/unete/ofertas-de-trabajo/page1" url="../../server/articlelist/resultados.php?pagination=1" class="list-group-item">Ofertas de trabajo</a>
+          <a href="/unete/doctorado/page1" url="../../server/articlelist/resultados.php?pagination=1" class="list-group-item">Doctorado</a>
+          <a href="/unete/postdocs-y-profesionales/page1" url="../../server/articlelist/resultados.php?pagination=1" class="list-group-item">Postdocs y profesionales</a>
+          <a href="/unete/docencia/page1" url="../../server/articlelist/resultados.php?pagination=1" class="list-group-item">Docencia</a>
+        </div>
+      </div>
+
+
+      <!-- Content Column -->
+      <div class="col-lg-9 col-sm-12">
+
+        <div id="article-list" class="row">
+
+          <div class="col-lg-6 col-sm-12 portfolio-item">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="pages/beca-para-desarrollo-de-ontology-deadline-10-05-2019.html">Beca para desarrollo de Ontoology - Deadline 10-05-2019</a>
+                </h4>
+                <p class="card-text">El OEG oferta una beca de 2,5 meses para el desarrollo de nuevas versiones de Ontoology para git y svn.</p>
+                <p class="card-text">Jornada laboral (h/sem.): 20,00</p>
+                <p class="card-text">Salario bruto mensual (€): 480,00</p>
+                <p class="card-text">Dirección: c/ Ciruelos 2 - 28660 Boadilla del Monte (Madrid)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 portfolio-item">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="pages/beca-para-desarrollo-de-ontology-deadline-10-05-2019.html">Beca para integración de servicios REST - Deadline 23-04-2019</a>
+                </h4>
+                <p class="card-text">El OEG oferta una beca de 3 meses para la integración de servicios REST.</p>
+                <p class="card-text">Jornada laboral (h/sem.): 20,00</p>
+                <p class="card-text">Salario bruto mensual (€): € 400,00</p>
+                <p class="card-text">Dirección: c/ Ciruelos 2 - 28660 Boadilla del Monte (Madrid)</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="totop">
+    <button class="text-center" title="back to top">
+      <i class="fa fa-chevron-circle-up"></i>
+    </button>
+  </div>
+
+  <!-- Footer -->
+  @@include('./include/footer.html') <!--include the footer to this page -->
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es" typeof="http://schema.org/WebPage" resource="#Publicaciones">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Ontology Engineering Group</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="../css/OEG.css">
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="../js/oeg.min.js"></script>
+
+</head>
+
+<body vocab="http://schema.org/">
+
+  <!-- Navigation -->
+  @@include('../include/header.html') <!--include the header to this page -->
+
+  <!-- Page content -->
+  <div class="container">
+
+    <!-- Page Heading -->
+    <h1 class="mt-4 mb-3" property="name">Publicaciones</h1>
+
+    <!-- Breadcrumbs -->
+    <ol id="breadcrumb" class="breadcrumb" property="breadcrumb" typeof="BreadcrumbList" resource="#BreadcrumbList">
+      <li class="breadcrumb-item" property="itemListElement" typeof="ListItem">
+        <meta property="position" content="1">
+        <a href="../index.html" property="item" typeof="WebPage">
+          <span property="name">Inicio</span>
+        </a>
+      </li>
+      <li class="breadcrumb-item" property="itemListElement" typeof="ListItem">
+        <meta property="position" content="2">
+        <a href="../resultados.html" property="item" typeof="WebPage">
+          <span property="name">Resultados</span>
+        </a>
+      </li>
+      <li class="breadcrumb-item active" property="itemListElement" typeof="ListItem">
+        <meta property="position" content="3">
+        <span href="publicaciones.html" property="item" typeof="WebPage">
+          <span property="name">Publicaciones</span>
+        </span>
+      </li>
+    </ol>
+
+    <!-- Content Row -->
+    <div class="row">
+      <!-- Content Column -->
+      <div class="col-lg-12 col-sm-12">
+
+        <h2>Publicaciones</h2>
+        <br>
+        <!-- Post Content -->
+        <p>Las publicaciones generadas por el grupo se están publicando mediante el sistema Archivo Digital de la UPM. La lista más actualizada de publicaciones está disponible en el siguiente <a href="http://oa.upm.es/cgi/search/advanced?screen=Public%3A%3AEPrintSearch&title_merge=ALL&title=&creators_name_merge=ALL&creators_name=&contributors_name_merge=ALL&contributors_name=&_fulltext__merge=ALL&_fulltext_=&abstract_merge=ALL&abstract=&keywords_merge=ALL&keywords=&subjects_merge=ALL&editors_name_merge=ALL&editors_name=&refereed=EITHER&publication_merge=ALL&publication=&event_title_merge=ALL&event_title=&note_merge=ALL&note=OEG&date=&satisfyall=ALL&order=-date%2Fcreators_name%2Ftitle&_action_search=Buscar">enlace</a>.</p>
+        <p>Aquí debajo también puede ver un listado de las publicaciones (<b>la carga del listado puede llevar unos segundos</b>).</p>
+        <!-- Embedded Bibbase -->
+        <iframe onload="iFrameHeight()" id="blockrandom" name="" src="http://bibbase.org/show?bib=http%3A%2F%2Fmayor2.dia.fi.upm.es%2Foeg-upm%2Ffiles%2Fbibtext%2Fexport_upm_BibTeX.bib" width="100%" height="650" scrolling="auto" align="top" frameborder="0" class="wrapper">
+	No Iframes</iframe>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="totop">
+    <button class="text-center" title="back to top">
+      <i class="fa fa-chevron-circle-up"></i>
+    </button>
+  </div>
+
+  <!-- Footer -->
+  @@include('../include/footer.html') <!--include the footer to this page -->
+
+</body>
+
+</html>

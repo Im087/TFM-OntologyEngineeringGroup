@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es" typeof="http://schema.org/WebPage" resource="#Investigacion">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Ontology Engineering Group</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="./css/OEG.css">
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="../../js/oeg.min.js"></script>
+
+</head>
+
+<body vocab="http://schema.org/">
+
+  <!-- Navigation -->
+  @@include('./include/header.html') <!--include the header to this page -->
+
+  <!-- Page content -->
+  <div class="container">
+
+    <!-- Page Heading -->
+    <h1 class="mt-4 mb-3" property="name">Investigación</h1>
+
+    <!-- Breadcrumbs -->
+    <ol id="breadcrumb" class="breadcrumb" property="breadcrumb" typeof="BreadcrumbList" resource="#BreadcrumbList">
+      <li class="breadcrumb-item" property="itemListElement" typeof="ListItem">
+        <meta property="position" content="1">
+        <a href="/index.html" property="item" typeof="WebPage">
+          <span property="name">Inicio</span>
+        </a>
+      </li>
+      <li class="breadcrumb-item active" property="itemListElement" typeof="ListItem">
+        <meta property="position" content="2">
+        <a property="item" typeof="WebPage">
+          <span property="name">Investigación</span>
+        </a>
+      </li>
+    </ol>
+
+    <!-- Content Row -->
+    <div class="row">
+      <!-- Sidebar Column -->
+      <div class="col-lg-3 col-sm-12 mb-4" typeof="WPSideBar" resource="#WPSideBar">
+        <div class="list-group sidebar">
+          <a href="/investigacion/areas-de-investigacion/page1" url="../../server/articlelist/investigacion.php?pagination=1" class="list-group-item">Áreas de investigación</a>
+          <a href="/investigacion/proyectos-actuales/page1" url="../../server/articlelist/investigacion.php?pagination=1" class="list-group-item">Proyectos actuales</a>
+          <a href="/investigacion/proyectos-completos/page1" url="../../server/articlelist/investigacion.php?pagination=1" class="list-group-item">Proyectos completos</a>
+          <a href="/investigacion/actividades-estanderizacion/page1" url="../../server/articlelist/investigacion.php?pagination=1" class="list-group-item">Actividades estandarización</a>
+          <a href="/investigacion/convenios-de-colaboracion/page1" url="../../server/articlelist/investigacion.php?pagination=1" class="list-group-item">Convenios de colaboración</a>
+        </div>
+      </div>
+
+      <!-- Content Column -->
+      <div class="col-lg-9 col-sm-12">
+
+        <div id="article-list" class="row">
+
+          <div class="col-lg-6 col-sm-12 portfolio-item">
+            <div class="card h-100">
+              <div class="card-head">
+                <a href="pages/theybuyforyou.html"><img class="card-img-top" src="./img/TBFY.jpg" alt="TBFY"></a>
+                <div class="mask">
+                  <div class="middle-text h3">Leer</div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="pages/theybuyforyou.html">TheyBuyForYou</a>
+                </h4>
+                <p class="card-text">Procurement managers, whether accountable to taxpayers or company boards, need novel decision-making tools that can tackle the complexities of modern supply chains and business transactions, while leveraging the large amounts of data and advanced analytics capabilities available. <a href="http://theybuyforyou.eu/">TheyBuyForYou</a> project will deliver these tools, alongside enabling technologies and data to make procurement across the EU more efficient, competitive, accountable, and fair.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 portfolio-item">
+            <div class="card h-100">
+              <div class="card-head">
+                <a href="pages/theybuyforyou.html"><img class="card-img-top" src="./img/clarity.jpg" alt="clarity"></a>
+                <div class="mask">
+                  <div class="middle-text h3">Leer</div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="pages/theybuyforyou.html">Clarity</a>
+                </h4>
+                <p class="card-text">El Proyecto CLARITY da soporte a los estados miembros de la Unión Europea en su búsqueda de una mayor confianza, transparencia y eficiencia dentro de sus iniciativas abiertas de eGovernment.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="totop">
+    <button class="text-center" title="back to top">
+      <i class="fa fa-chevron-circle-up"></i>
+    </button>
+  </div>
+
+  <!-- Footer -->
+  @@include('./include/footer.html') <!--include the footer to this page -->
+
+</body>
+
+</html>

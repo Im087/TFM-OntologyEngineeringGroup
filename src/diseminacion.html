@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es" typeof="http://schema.org/WebPage" resource="#Diseminacion">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Ontology Engineering Group</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="./css/OEG.css">
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="./js/oeg.min.js"></script>
+
+</head>
+
+<body vocab="http://schema.org/">
+
+  <!-- Navigation -->
+  @@include('./include/header.html') <!--include the header to this page -->
+
+  <!-- Page content -->
+  <div class="container">
+
+    <!-- Page Heading -->
+    <h1 class="mt-4 mb-3" property="name">Diseminación</h1>
+
+    <!-- Breadcrumbs -->
+    <ol id="breadcrumb" class="breadcrumb" property="breadcrumb" typeof="BreadcrumbList" resource="#BreadcrumbList">
+      <li class="breadcrumb-item" property="itemListElement" typeof="ListItem">
+        <meta property="position" content="1">
+        <a href="/index.html" property="item" typeof="WebPage">
+          <span property="name">Inicio</span>
+        </a>
+      </li>
+      <li class="breadcrumb-item active" property="itemListElement" typeof="ListItem">
+        <meta property="position" content="2">
+        <a property="item" typeof="WebPage">
+          <span property="name">Diseminación</span>
+        </a>
+      </li>
+    </ol>
+
+    <!-- Content Row -->
+    <div class="row">
+      <!-- Sidebar Column -->
+      <div class="col-lg-3 col-sm-12 mb-4" typeof="WPSideBar" resource="#WPSideBar">
+        <div class="list-group sidebar">
+          <a href="/diseminacion/notas-de-prensa/page1" url="../../server/articlelist/investigacion.php?pagination=1" class="list-group-item">Notas de prensa</a>
+          <a href="/diseminacion/ultimas-noticias/page1" url="../../server/articlelist/investigacion.php?pagination=1" class="list-group-item">Últimas noticias</a>
+          <a href="/diseminacion/noticias-anteriores/page1" url="../../server/articlelist/investigacion.php?pagination=1" class="list-group-item">Noticias anteriores</a>
+          <a href="/diseminacion/eventos/page1" url="../../server/articlelist/investigacion.php?pagination=1" class="list-group-item">Eventos</a>
+          <a href="/diseminacion/premios/page1" url="../../server/articlelist/investigacion.php?pagination=1" class="list-group-item">Premios</a>
+        </div>
+      </div>
+
+      <!-- Content Column -->
+      <div class="col-lg-9 col-sm-12">
+
+        <div id="article-list" class="row">
+
+          <div class="col-lg-6 col-sm-12 portfolio-item">
+            <div class="card h-100">
+              <div class="card-head">
+                <a href="./pages/asuncion-gomez-perez-ingresa-en-la-european-academy-of-sciences.html"><img class="card-img-top" src="../img/asun_foto.jpg" alt="asun_foto"></a>
+                <div class="mask">
+                  <div class="middle-text h3">Leer</div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="./pages/asuncion-gomez-perez-ingresa-en-la-european-academy-of-sciences.html">Asunción Goméz Perez ingresa en la European Academy of Sciences</a>
+                </h4>
+                <p class="card-text">La asociación integra a los investigadores y académicos más relevantes en distintas disciplinas científicas, entre ellas la ingeniería, y promueve el empleo de las nuevas tecnologías para contribuir al desarrollo humano y económico.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 portfolio-item">
+            <div class="card h-100">
+              <div class="card-head">
+                <a href="./pages/asuncion-gomez-perez-ingresa-en-la-european-academy-of-sciences.html"><img class="card-img-top" src="../img/marianorico-aporta.jpg" alt="marianorico-aporta"></a>
+                <div class="mask">
+                  <div class="middle-text h3">Leer</div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="./pages/asuncion-gomez-perez-ingresa-en-la-european-academy-of-sciences.html">Mariano Rico, investigador del Ontology Engineering Group, galardonado con el III premio del concurso Aporta</a>
+                </h4>
+                <p class="card-text">Mariano Rico, investigador del Grupo de Ingeniería Ontológica (OEG) de la Escuela Técnica Superior de Ingenieros Informáticos (ETSIINF), ha sido galardonado con el III premio en el concurso Aporta, gracias a un “buscador basado en lenguaje natural guiado que busca facilitar el descubrimiento de los datos ofrecidos por las administraciones públicas y su reutilización”.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="totop">
+    <button class="text-center" title="back to top">
+      <i class="fa fa-chevron-circle-up"></i>
+    </button>
+  </div>
+
+  <!-- Footer -->
+  @@include('./include/footer.html') <!--include the footer to this page -->
+
+</body>
+
+</html>
